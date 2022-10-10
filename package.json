@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "clean-cache": "rm -f public/sitemap.xml && rm -f .next/cache/posts.json",
+    "predev": "yarn clean-cache",
+    "prebuild": "yarn clean-cache"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.7",
+    "@types/glob": "^8.0.0",
+    "@types/node": "17.0.35",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.5",
+    "autoprefixer": "^10.4.7",
+    "cookies-next": "^2.1.1",
+    "glob": "^8.0.3",
+    "gray-matter": "^4.0.3",
+    "next-themes": "^0.2.1",
+    "postcss": "^8.4.14",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
+    "remove-accents": "^0.4.3",
+    "tailwindcss": "^3.1.2",
+    "typescript": "4.7.2"
+  }
+}
