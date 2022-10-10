@@ -26,6 +26,7 @@ Follow these steps after cloned:
     - Publish directory: `out`
 - Environments variables
     - SITE_URL: `https://***.netlify.app`
+    - NETLIFY_NEXT_PLUGIN_SKIP: `true`
 - After deployed, go to https://app.netlify.com/sites/[SITE_NAME]/settings/domain
 - Match the url according to env `SITE_URL`. If the subdomain not available, then you need to redeploy with new env.
 
